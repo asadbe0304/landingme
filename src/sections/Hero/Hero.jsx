@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/hero-img.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -25,7 +25,8 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          style={{borderRadius:"50%"}}
+          alt="Profile picture of author"
         />
         <img
           className={styles.colorMode}
@@ -36,16 +37,15 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
-          <br />
-          Johnsen
+          Asadbek          <br />
+          Dev 
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://devcl.vercel.app/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/asadbe0304" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
           <a href="https://linkedin.com/" target="_blank">

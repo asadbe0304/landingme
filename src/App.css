@@ -30,7 +30,9 @@ body {
   flex-direction: column;
   gap: 60px;
 }
-
+.img{
+  width:"200px";
+}
 h1,
 h2,
 h3,

@@ -16,8 +16,8 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="React" />
-        <SkillList src={checkMarkIcon} skill="Angular" />
-        <SkillList src={checkMarkIcon} skill="Vue" />
+        <SkillList src={checkMarkIcon} skill="NextJs" />
+        <SkillList src={checkMarkIcon} skill="Shadscn" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
       </div>
       <hr />
